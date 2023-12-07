@@ -1,5 +1,3 @@
-const mix = require('laravel-mix');
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,7 +9,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+const mix = require('laravel-mix');
+
+mix
+    .setPublicPath('public')
+    .setResourceRoot('/public/')
+    .js('resources/js/*.js', 'public/js/app.js')
+    .styles('resources/css/*.css', 'public/css/styles.css')
+    .version();

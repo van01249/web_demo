@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    font-display: swap;
+    src: url(/fonts/Roboto-Regular.woff2);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    font-display: swap;
+    src: url(/fonts/Roboto-Bold.woff2);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    font-display: swap;
+    src: url(/fonts/Roboto-Medium.woff2);
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    font-family: Roboto-Regular, sans-serif;
+}
+
+a,
+blockquote,
+button,
+code,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+p,
+pre,
+select,
+span,
+sub,
+td,
+textarea,
+th {
+    color: #333;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a,
+button,
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+i {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a img,
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.width-90 {
+    width: 90% !important;
+}
+
+.width-80 {
+    width: 80% !important;
+}
+
+.width-70 {
+    width: 70% !important;
+}
+
+.width-60 {
+    width: 60% !important;
+}
+
+.width-50 {
+    width: 50% !important;
+}
+
+.width-40 {
+    width: 40% !important;
+}
+
+.width-30 {
+    width: 30% !important;
+}
+
+.width-20 {
+    width: 20% !important;
+}
+
+.width-10 {
+    width: 10% !important;
+}
+
+img {
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    -o-object-position: center center !important;
+    object-position: center center !important;
+}
+
+.text_blue {
+    color: #3691D9;
+    ;
+}
+
+.text_while {
+    color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+}
+
+.f_ac {
+    align-items: center;
+}
+
+.justify_content_sb {
+    justify-content: space-between;
+}
+
+.f_jc {
+    justify-content: center;
+}
+
+.f_jdc {
+    flex-direction: column;
+}
+
+.f_ac_jc {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_center {
+    align-items: center;
+}
+
+.img_center {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ellipsis_1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.ellipsis_2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.ellipsis_3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.ellipsis_4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.ellipsis_5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
