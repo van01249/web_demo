@@ -30,3 +30,33 @@
 .time_now span {
     font-family: 'Roboto-Medium';
 }
+
+.head_left {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo_href {
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.menu_item {
+    cursor: pointer;
+}
+
+.menu_bar span,
+.menu_bar a {
+    font-family: 'Roboto-Medium';
+}

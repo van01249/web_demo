@@ -22,15 +22,11 @@
                 <a href="#"><span>Tuần Việt Nam</span></a>
             </div>
             <div class="menu_item">
-                <a href="#"><img src="/images/vpremium-menu-logo.svg" alt="Icon Vpremium"></a>
-            </div>
-            <div class="menu_item">
-                <a href="#"><img src="/images/logovnn-tv.svg" alt="Icon logovnn-tv.svg"></a>
+                <a class="logo_href" href="#"><img src="/images/logovnn-tv.svg" alt="Icon logovnn-tv.svg"></a>
             </div>
             <div class="menu_item">
                 <div class="box_login">
-                    <span>Đăng nhập</span>
-                    <img src="/images/dang-nhap.svg" alt="Icon Login">
+                    <span>Đăng nhập/Đăng ký</span>
                 </div>
             </div>
         </div>

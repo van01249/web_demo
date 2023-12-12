@@ -14,6 +14,8 @@
     @include('header')
     @yield('content')
     @include('footer')
+
+    <script src="{{ asset('js/menubar.js') }}"></script>
 </body>
 
 </html>
