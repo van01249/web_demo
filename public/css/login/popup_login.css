@@ -1,0 +1,45 @@
+.overlay_login {
+    float: left;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: #000000a6;
+    padding: 40px 0;
+    display: none;
+    height: 100vh;
+}
+
+.popup_login {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.app_more_item {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.close_login {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    background: unset;
+    border: unset;
+}
+
+.login_item {
+    width: 50%;
+}

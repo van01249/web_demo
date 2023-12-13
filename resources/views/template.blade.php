@@ -11,11 +11,25 @@
 </head>
 
 <body>
+    @php
+    $uid = request()->cookie('uid');
+    @endphp
+
     @include('header')
+
     @yield('content')
+
     @include('footer')
 
+    @if(!$uid)
+    @include('popup.login.login')
+    @endif
+
+    <script src="{{ asset('js/asset/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ asset('js/asset/lazysizes.min.js') }}"></script>
     <script src="{{ asset('js/menubar.js') }}"></script>
+
+
 </body>
 
 </html>
