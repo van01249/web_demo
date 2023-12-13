@@ -4,7 +4,8 @@
         <button class="close_login">x</button>
         <div class="pop_left login_item">
             <div class="formLogin">
-                <form action="" class="form_login">
+                <form action="/login" class="form_login">
+                    @csrf
                     <div class="text_login">
                         <span>Đăng Nhập</span>
                     </div>
@@ -32,22 +33,22 @@
                         <button type="submit">Đăng nhập</button>
                     </div>
                 </form>
-                <div class="login_more">
-                    <div class="text">
-                        <span>Hoặc đăng nhập bằng các tài khoản sau:</span>
+            </div>
+            <div class="login_more">
+                <div class="text">
+                    <span>Hoặc đăng nhập bằng các tài khoản sau:</span>
+                </div>
+                <div class="app_more">
+                    <div class="facebook app_more_item">
+                        <img src="/images/login/fb.svg" alt="Icon facebook">
                     </div>
-                    <div class="app_more">
-                        <div class="facebook app_more_item">
-                            <img src="/images/login/fb.svg" alt="Icon facebook">
-                        </div>
-                        <div class="ggplus app_more_item">
-                            <img src="/images/login/google_plus.svg" alt="Icon google">
-                        </div>
+                    <div class="ggplus app_more_item">
+                        <img src="/images/login/google_plus.svg" alt="Icon google">
                     </div>
                 </div>
-                <div class="text_regis">
-                    <span>Chưa có tài khoản</span><a href="#" class="link_regis">Đăng ký</a>
-                </div>
+            </div>
+            <div class="text_regis">
+                <span>Chưa có tài khoản?</span><a href="#" class="link_regis">Đăng ký</a>
             </div>
         </div>
         <div class="pop_right login_item">
