@@ -9,7 +9,7 @@ Route::get('/', function () {
 });
 
 //Đăng ký
-Route::get('/dang-ky', [AuthController::class, 'pageRegister'])->name('register');
+Route::post('/dang-ky', [AuthController::class, 'register'])->name('register');
 
 //Đăng nhập
 Route::post('/login', [AuthController::class, 'login']);

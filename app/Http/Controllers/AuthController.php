@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class AuthController extends Controller
 {
 
-    public function pageRegister(){
+    public function register(){
+        var_dump($req); die;
         return view('register');
     }
 

@@ -26,7 +26,13 @@
             </div>
             <div class="menu_item">
                 <div class="box_login">
-                    <span>Đăng nhập/Đăng ký</span>
+                    <div class="item_login">
+                        Đăng nhập
+                    </div>
+                    <span>/</span>
+                    <div class="item_register">
+                        Đăng ký
+                    </div>
                 </div>
             </div>
         </div>
